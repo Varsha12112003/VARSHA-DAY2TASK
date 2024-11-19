@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:bisque;
+    justify-content: center;
+    align-items: center;
+   }
+  
+  /* Card Styles */
+  .card {
+    background-color:white;
+    border: 10px bisque;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 10px green;
+  }
+  h2
+  {
+    color: red;
+  }
+  .card-image {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+   
+  }
+  h3{
+    color: brown;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    display: flexbox;
+    
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #2e1ec0;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  .card-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-button:hover {
+    background-color: violet;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card {
+      max-width: 90%;
+    }
+  
+    .card-title {
+      font-size: 1.25rem;
+    }
+  
+    .card-description {
+      font-size: 0.9rem;
+    }
+  
+    .card-button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
